@@ -67,6 +67,7 @@
             id="password1"
             placeholder="Create Password"
             required
+            pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
           />
         </div>
         <!-- confirm password -->
@@ -77,6 +78,8 @@
             id="password2"
             placeholder="Confirm Password"
             required
+            pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+            title="Please include at least 1 uppercase, 1 lowercase and 1 number"
           />
         </div>
         <!-- submit btn -->
