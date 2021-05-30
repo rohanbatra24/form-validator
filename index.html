@@ -19,27 +19,55 @@
         <!-- full name -->
         <div class="form-group">
           <label for="name">Full Name</label>
-          <input type="text" id="name" placeholder="Full Name" />
+          <input
+            type="text"
+            id="name"
+            placeholder="Full Name"
+            required
+            minlength="3"
+            maxlength="100"
+          />
         </div>
         <!-- phone number -->
         <div class="form-group">
           <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" placeholder="555-555-5555" />
+          <input
+            type="tel"
+            id="phone"
+            placeholder="555-555-5555"
+            required
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          />
         </div>
         <!-- phone number -->
         <div class="form-group">
           <label for="email">Email</label>
-          <input type="email" id="email" placeholder="john@hello.com" />
+          <input
+            type="email"
+            id="email"
+            placeholder="john@hello.com"
+            required
+          />
         </div>
         <!-- website URL -->
         <div class="form-group">
           <label for="website">Website URL</label>
-          <input type="url" id="website" placeholder="www.google.com" />
+          <input
+            type="url"
+            id="website"
+            placeholder="www.google.com"
+            required
+          />
         </div>
         <!-- password -->
         <div class="form-group">
           <label for="password1">Password</label>
-          <input type="password" id="password1" placeholder="Create Password" />
+          <input
+            type="password"
+            id="password1"
+            placeholder="Create Password"
+            required
+          />
         </div>
         <!-- confirm password -->
         <div class="form-group">
@@ -48,6 +76,7 @@
             type="password"
             id="password2"
             placeholder="Confirm Password"
+            required
           />
         </div>
         <!-- submit btn -->
