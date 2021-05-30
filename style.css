@@ -55,3 +55,35 @@ input:valid {
 input:invalid {
   border: 1px solid red;
 }
+
+button {
+  cursor: pointer;
+  color: white;
+  background: black;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+button:hover {
+  filter: brightness(200%);
+  background: rgb(8, 1, 1);
+}
+
+button:focus {
+  outline: none;
+}
+
+.message-container {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 90%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
